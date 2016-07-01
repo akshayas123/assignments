@@ -1,0 +1,244 @@
+
+#b1
+{
+	background-color:grey;
+}
+.container
+
+	{
+	
+    margin-right:190px;
+    margin-left: 300px;
+    background: white;
+    margin-bottom: 1px;
+    
+    
+	}
+
+
+header
+	{
+
+		background-color: white;
+		background-image: url("/home/QBCLCT/Downloads/pics/wine.jpg");
+		height:150px;
+		margin-left:8px;
+
+	}
+
+
+nav
+	{
+		background-color:white;
+		
+	}
+
+
+.button
+	{
+
+		font-size:14px;
+		background-color:#2C6700;
+		padding:13px 35px;
+		color:white;
+		cursor: pointer;
+		display:inline-block;
+		position: relative;
+		margin-left: 1px;
+
+	}
+
+
+.button:hover
+	{
+
+		background-color: #92CD00;
+
+	}
+
+
+.drpdwn
+	{
+
+	   position: relative;
+	   display: inline-block;
+
+	}
+
+
+.drpcnt
+	{
+
+		display:none;
+		position: relative;
+		background-color: lightgrey;
+		width:160px;
+
+	}
+
+
+.drpcnt a 
+	{
+
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+   		display: block;
+
+	}
+
+
+.drpdwn:hover .drpcnt 
+	{
+
+		position: absolute;
+   		display: block;
+
+	}
+
+.a3:hover
+	{
+			background-color: green;
+	}
+
+
+#sidebar1
+	{
+		color:#2C6700;
+		margin-left:20px;
+		background-color: white;
+	}
+
+
+
+article
+	{
+		color:grey;
+		margin-left:20px;
+		background-color: white;
+		font-size:15px;
+	}
+
+section
+	{
+
+		width:170px;
+
+	}
+
+#main
+		{
+			margin-left:250px;
+			margin-top:-600px;
+		}
+
+#p1
+	{
+		color:orange;
+		margin-left: 13px;
+		width:510px;
+		font-size:15px;
+
+	}
+
+.p2
+	{
+		width:520px;
+		font-size:15px;
+	}
+
+#p3
+	{
+		font-size: 10px;
+	}
+
+.box1
+	{
+		width:510px;
+		height:23px;
+		background-color: lightgrey;
+		text-align: left;
+		font-size: 13px;
+		color:orange;
+	}
+
+#box2
+	{
+		width:175px;
+		height:45px;
+		background-color:#2C6700;
+		position:relative;
+		top:-45px;
+		left:595px;
+	}
+
+	
+#a1
+	
+	{
+		color:#2C6700;
+		text-decoration:none;
+		font-size:15px;
+	}
+
+#a2
+	{
+		color:orange;
+		text-decoration: none;
+	}
+
+#a2:hover
+	{
+		color:#2C6700;
+	}
+
+.hd1
+	{
+		color:#2C6700;
+	}
+	
+
+
+table 
+	{
+
+   		border-collapse: collapse;
+   		width: 160px;
+
+	}
+
+th, td 
+	{
+
+    	padding: 8px;
+	    border-bottom: 1px solid grey;
+	    text-align: left;
+
+	}
+
+
+
+tr:hover
+	{
+		background-color:grey;
+		color:orange;
+	}
+
+#hd2
+	{
+		margin-left:15px;
+	}
+
+.img1
+	{
+		width:10px;
+ 		height:10px;
+	}
+
+footer
+	{
+		background-color:  #92CD00;
+		height:20px;
+		width:auto;
+		text-align:center;
+	}

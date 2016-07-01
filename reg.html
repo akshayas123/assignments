@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>reg page</title>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="regcss.css">
+	
+<body>
+<div class="box1">
+<p id="p1">32  Red Casino- getting started</p>
+			<div class="box2">
+
+
+
+			<section>
+			<h4>Your Account Details</h4>
+			<p id="p2">* indicates a mandatory field</p>
+
+
+
+			
+
+
+			<fieldset>
+					
+					<label for="password"><p class="p3">	Password*     	  </label>	  <input type="password" id="password"><br><span id="pass"></span></p>
+					<label for="cnfrmpass"><p class="p3">	Confirm password* </label>	   <input type="password" id="cnfrmpass"></p>
+					<label for="email"><p class="p3">		Email* 				</label>    											
+					<input type="text" id="email" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"  ></p>
+					<label for="currency"><p class="p3">	Currency*	      </label>	   <select id="currency">
+					 		 						<option>Rupees</option>
+					 		 						<option>Dollar</option>
+					 		 						<option>Riyal</option>
+					 		 						<option selected>Make a Selection</option>
+					 		 						<option>Dirhams</option>
+					 		 				 </select>
+					 <label for="phone"><p class="p3">		Phone*    		   </label>	  <input type="text" id="phone" ></p>
+					 <label for="mobile"><p class="p3">		Mobile phone 	   </label>	  <input type="text" id="mobile" ></p>
+
+			</fieldset>
+
+<h4>Your Personal Details</h4>
+	
+			<fieldset>
+
+					<label for="fname"><p class="p3">		First Name* 		</label>  <input type="text" id="fname" ></p>
+					<label for="lname"><p class="p3">	    Last Name* 			</label>  <input type="text" id="lname" ></p>
+					
+					<label for="radio"><p class="p3">       Gender*				</label>
+															  <input type="radio" name="radio" id="radio" value="Female">Female
+								 							  <input type="radio" name="radio" id="radio" value="male">Male
+								 							  <br><span id="error"></span>	</p>
+					<label for="dob"><p class="p3">DOB</label>    <input type="date" id="dob"> </p>
+
+					<input type="button" value="submit" onclick="funct()">
+
+			</fieldset>
+			</section>
+
+			<aside>
+				<div class="box4">
+							<input type="button" class="button1" value="Live Help">
+							<p class="p4">..................................</p>
+							<a class="p4" href="#">Register Later</a><br>
+							<a class="p4" href="#">I already have an account</a>
+							<input type="button" class="button2" value="Create Account">
+				</div>
+			</aside>
+
+			
+
+			</div>	
+	<footer>
+			
+			<p id="p5">Download has completed!!!</p>
+
+	</footer>
+<p style="font-size:10px">powered by microsoft</p>
+	<input type="button" class="button3" value="Launch Casino">
+</div>
+
+
+
+
+
+</body>
+</head>
+</html>
